@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fashion Weekend's Schedule | MAiN Pro</title>
+    <title>Fashion Weekend's Exhibitors | MAiN Pro</title>
     <link rel="stylesheet" href="style.css" />
     <!-- Font -->
     <link
@@ -13,6 +13,7 @@
 
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="assets/css/vendor.min.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <!-- CSS mainpro Template -->
     <link rel="stylesheet" href="assets/css/theme.minc619.css?v=1.0" />
@@ -22,319 +23,325 @@
     
     <div id="contents">
         <!-- ========== HEADER ========== -->
-        <header
-          id="header"
-          class="navbar navbar-expand-lg navbar-end navbar-sticky-top navbar-dark"
-        >
-          <div class="container">
-            <nav class="js-mega-menu navbar-nav-wrap bg-light rounded bg-dark">
-              <!-- Default Logo -->
-              <a class="navbar-brand" href="../index.html" aria-label="mainpro">
-                <!-- <img class="navbar-brand-logo" src="../assets/svg/logos/logo-white.svg" alt="Logo"> -->
-              </a>
-              <!-- End Default Logo -->
-  
-              <!-- Collapse -->
-              <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                <div class="navbar-sticky-top-scroller">
-                  <ul class="navbar-nav nav-pills">
-                    <!-- Schedule -->
-                    <li
-                      class="hs-has-mega-menu nav-item"
-                      data-hs-mega-menu-item-options='{
-                    "desktop": {
-                      "maxWidth": "40rem"
-                    }
-                  }'
-                    >
-                      <a
-                        id="landingsMegaMenu"
-                        class="hs-mega-menu-invoker nav-link"
-                        aria-current="page"
-                        href="#"
-                        role="button"
-                        aria-expanded="false"
-                        >Schedule</a
-                      >
-                    </li>
-                    <!-- End Schedule -->
-                    <!-- Landings -->
-                    <li
-                      class="hs-has-mega-menu nav-item"
-                      data-hs-mega-menu-item-options='{
+      <header
+      id="header"
+      class=" navbar navbar-expand-lg navbar-end navbar-sticky-top navbar-dark"
+    >
+      <div class="container">
+        <nav class="bg-dark js-mega-menu navbar-nav-wrap bg-light rounded">
+          <!-- Default Logo -->
+          <a class="navbar-brand" href="./index.html" aria-label="mainpro">
+            <img class="navbar-brand-logo" src="img/123rem.png" alt="headLogo" id="headLogo">
+          </a>
+          <!-- End Default Logo -->
+
+          <!-- Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-default">
+              <i class="bi-list"></i>
+            </span>
+            <span class="navbar-toggler-toggled">
+              <i class="bi-x"></i>
+            </span>
+          </button>
+          <!-- End Toggler -->
+
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="navbar-sticky-top-scroller">
+              <ul class="navbar-nav nav-pills">
+                <!-- Schedule -->
+                <li
+                  class="hs-has-mega-menu nav-item"
+                  data-hs-mega-menu-item-options='{
                 "desktop": {
                   "maxWidth": "40rem"
                 }
               }'
-                    >
-                      <a
-                        id="landingsMegaMenu"
-                        class="hs-mega-menu-invoker nav-link"
-                        aria-current="page"
-                        href="#"
-                        role="button"
-                        aria-expanded="false"
-                        >Designers</a
-                      >
-                    </li>
-                    <!-- End Landings -->
-                    <!-- Landings -->
-                    <li
-                      class="hs-has-mega-menu nav-item"
-                      data-hs-mega-menu-item-options='{
-                "desktop": {
-                  "maxWidth": "40rem"
-                }
-              }'
-                    >
-                      <a
-                        id="landingsMegaMenu"
-                        class="hs-mega-menu-invoker nav-link"
-                        aria-current="page"
-                        href="#"
-                        role="button"
-                        aria-expanded="false"
-                        >Exhibitors</a
-                      >
-                    </li>
-                    <!-- End Landings -->
-                  </ul>
-                </div>
-              </div>
-              <!-- End Collapse -->
-            </nav>
-          </div>
-        </header>
-        <!-- ========== END HEADER ========== -->
-         <!-- ========== MAIN CONTENT ========== -->
-          <div class="container">
-            <div class="card bg-white mt-5 p-5">
-              <main class="" id="content" role="main">
-                <!-- Hero -->
-                <div class="bg-light">
-                  <!-- <div class="container py-4">
-                    <div class="w-lg-50 mx-lg-auto">
-                      <form>
-                         Input Card 
-                        <div class="input-group-merge">
-                          <div class="input-group-prepend input-group-text">
-                            <i class="bi-search"></i>
-                          </div>
-                          <input type="text" class="form-control form-control-lg" id="searchAnswersForm" placeholder="Search for answers" aria-label="Search for answers">
-                        </div>
-                         End Input Card
-                      </form>
-                    </div>
-                  </div>
-                 End Hero -->
-                </div> 
-            
-                <!-- List -->
-                <div class="container content-space-1 content-space-b-2">
-                  <div class="row">
-                    <div id="stickyBlockStartPoint" class="col-md-4 mb-3 mb-md-0">
-                      <!-- Navbar -->
-                      <div class="navbar-expand-md">
-                        <!-- Navbar Toggle -->
-                        <div class="d-grid">
-                          <button type="button" class="navbar-toggler btn btn-white ms-0 mb-5" data-bs-toggle="collapse" data-bs-target="#navbarVerticalNavMenu" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbarVerticalNavMenu">
-                            <span class="d-flex justify-content-between align-items-center">
-                              <span class="h6 mb-0">Nav menu</span>
-            
-                              <span class="navbar-toggler-default">
-                                <i class="bi-list"></i>
-                              </span>
-            
-                              <span class="navbar-toggler-toggled">
-                                <i class="bi-x"></i>
-                              </span>
-                            </span>
-                          </button>
-                        </div>
-                        <!-- End Navbar Toggle -->
-            
-                        <!-- Navbar Collapse -->
-                        <div id="navbarVerticalNavMenu" class="collapse navbar-collapse">
-                          <!-- Sticky Block -->
-                          <div class="js-sticky-block" data-hs-sticky-block-options='{
-                               "parentSelector": "#stickyBlockStartPoint",
-                               "breakpoint": "md",
-                               "startPoint": "#stickyBlockStartPoint",
-                               "endPoint": "#stickyBlockEndPoint",
-                               "stickyOffsetTop": 20
-                             }'>
-                            <!-- List -->
-                            <ul class="nav nav-link-gray nav-tabs nav-vertical">
-                              <li class="nav-item">
-                                <a class="nav-link active" href="#">Fashion week 2025</a>
-                              </li>
-                            </ul>
-                            <!-- End List -->
-                          </div>
-                          <!-- End Sticky Block -->
-                        </div>
-                        <!-- End Navbar Collapse -->
-                      </div>
-                      <!-- End Navbar -->
-                    </div>
-                    <!-- End Col -->
-            
-                    <div class="col-md-8">
-                      <!-- Breadcrumb -->
-                      <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb mb-7">
-                          <li class="breadcrumb-item">
-                          </li>
-                        </ol>
-                      </nav>
-                      <!-- End Breadcrumb -->
-            
-                      <!-- List -->
-                      <ul class="list-unstyled list-py-2">
-                        <li>
-                          <!-- Media -->
-                          <div class="d-sm-flex">
-                            <div class="flex-shrink-0 mb-3 mb-sm-0">
-                              <span class="me-2">
-                                <i class="bi-calendar-week-fill text-primary fs-3"></i>
-                              </span>
-                            </div>
-            
-                            <div class="flex-grow-1 ms-sm-3">
-                              <div class="mb-1">
-                                <span class="text-cap mb-1">Getting Started</span>
-                                <div class="card border-0" id="event">
-                                  <div class="card-header border-bottom mb-0 p-0">
-                                <button type="button" class="btn btn-light mb-2" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                                  Date<span class="badge text-bg-secondary float-end ms-1">14th July 2025</span>
-                                </button>
-                                  </div>
-                                  <div class="card-transparent rounded p-3">
-                                    <div class="row">
-                                      <div class="col-md-4 border-end"><h6>Opening Ceremony.</h6>
-                                      </div>
-                                      <div class="col-md-8">
-                                        <p class="fs-5">Introduction and Registrations</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-            
-                              <a class="link" href="page-help-center-article.html">Read more <i class="bi-chevron-right small ms-1"></i></a>
-                            </div>
-                          </div>
-                          <!-- End Media -->
-                        </li>
-            
-                        <li class="border-top my-5"></li>
-                      </ul>
-                      <!-- End List -->
-            
-                      <!-- End Sticky End Point -->
-                      <div id="stickyBlockEndPoint"></div>
-            
-                      <!-- Pagination -->
-                      <nav class="d-flex justify-content-center" aria-label="Page navigation">
-                        <ul class="pagination justify-content-center justify-content-sm-start mb-0">
-                          <li class="page-item disabled">
-                            <a class="page-link" href="#" tabindex="-1">
-                              <span aria-hidden="true">&laquo;</span>
-                            </a>
-                          </li>
-                          <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                          <li class="page-item">
-                            <a class="page-link" href="#">
-                              <span aria-hidden="true">&raquo;</span>
-                            </a>
-                          </li>
-                        </ul>
-                        <!-- End Col -->
-                      </nav>
-                      <!-- End Pagination -->
-                    </div>
-                    <!-- End Col -->
-                  </div>
-                  <!-- End Row -->
-                </div>
-                <!-- End List -->
-            
-                <!-- Card Grid -->
-                <div class="container border-top content-space-1 content-space-b-lg-3">
-                  <div class="row">
-                    <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
-                      <!-- Card -->
-                      <div class="card card-transition h-100" href="#">
-                        <div class="card-body">
-                          <!-- Icon Block -->
-                          <div class="d-flex">
-                            <div class="flex-shrink-0">
-                              <i class="bi-people fs-3 text-dark"></i>
-                              <a href=""><i class="bi-telegram fs-3 text-dark"></i></a>
-                            </div>
-                            <div class="flex-grow-1 ms-4">
-                              <h5 class="card-title">Ask our community</h5>
-                              <p class="card-text">Get help from communities</p>
-                              
-                            </div>
-                          </div>
-                          <!-- End Icon Block -->
-                        </div>
-                      </div>
-                      <!-- End Card -->
-                    </div>
-                    <!-- End Col -->
-            
-                    <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
-                      <!-- Card -->
-                      <div class="card card-transition h-100">
-                        <div class="card-body">
-                          <!-- Icon Block -->
-                          <div class="d-flex">
-                            <div class="flex-shrink-0">
-                              <i class="bi-app-indicator fs-3 text-dark"></i>
-                              <a href=""><i class="bi-whatsapp fs-3 text-dark"></i></a>
-                            </div>
-                            <div class="flex-grow-1 ms-4">
-                              <h5 class="card-title">Get help in the app</h5>
-                              <p class="card-text">Just head to «Help» in the app</p>
-                            </div>
-                            
-                          </div>
-                          <!-- End Icon Block -->
-                        </div>
-                      </div>
-                      <!-- End Card -->
-                    </div>
-                    <!-- End Col -->
-            
-                    <div class="col-sm-6 col-lg-4">
-                      <!-- Card -->
-                      <a class="card card-transition h-100" href="#">
-                        <div class="card-body">
-                          <!-- Icon Block -->
-                          <div class="d-flex">
-                            <div class="flex-shrink-0">
-                              <i class="bi-envelope-open fs-3 text-dark"></i>
-                            </div>
-                            <div class="flex-grow-1 ms-4">
-                              <h5 class="card-title">Email us</h5>
-                              <p class="card-text">Reach us at <span class="text-primary">info@site.com</span></p>
-                            </div>
-                          </div>
-                          <!-- End Icon Block -->
-                        </div>
-                      </a>
-                      <!-- End Card -->
-                    </div>
-                    <!-- End Col -->
-                  </div>
-                  <!-- End Row -->
-                </div>
-                <!-- End Card Grid -->
-              </main>
+                >
+                  <a
+                    id="landingsMegaMenu"
+                    class="hs-mega-menu-invoker nav-link"
+                    aria-current="page"
+                    href="schedule.html"
+                    role="button"
+                    aria-expanded="false"
+                    >Schedule</a
+                  >
+                </li>
+                <!-- End Schedule -->
+                <!-- Landings -->
+                <li
+                  class="hs-has-mega-menu nav-item"
+                  data-hs-mega-menu-item-options='{
+            "desktop": {
+              "maxWidth": "40rem"
+            }
+          }'
+                >
+                  <a
+                    id="landingsMegaMenu"
+                    class="hs-mega-menu-invoker nav-link"
+                    aria-current="page"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Designers</a
+                  >
+                </li>
+                <!-- End Landings -->
+                <!-- Landings -->
+                <li
+                  class="hs-has-mega-menu nav-item"
+                  data-hs-mega-menu-item-options='{
+            "desktop": {
+              "maxWidth": "40rem"
+            }
+          }'
+                >
+                  <a
+                    id="landingsMegaMenu"
+                    class="hs-mega-menu-invoker nav-link "
+                    aria-current="page"
+                    href="exhibitors.html"
+                    role="button"
+                    aria-expanded="false"
+                    >Exhibitors</a
+                  >
+                </li>
+                <!-- End Landings -->
+              </ul>
             </div>
           </div>
+          <!-- End Collapse -->
+        </nav>
+      </div>
+    </header>
+    <!-- ========== END HEADER ========== -->
+         <!-- ========== MAIN CONTENT ========== -->
+         <main id="content" role="main">
+          <!-- Card List -->
+          <div class="overflow-hidden">
+            <div class="container content-space-2 content-space-lg-3">
+              <div class="row justify-content-lg-between align-items-md-center">
+                <div class="col-md-6 col-lg-5 mb-10 mb-md-0">
+                  <div class="position-relative">
+                    <img class="img-fluid rounded-3" src="./img/4597-86e1-efb6e169c0cd.png" alt=" ">
+      
+                    <!-- SVG Shape -->
+                    <figure class="position-absolute top-0 end-0 d-none d-lg-block mt-3 me-n7" style="width: 4rem;">
+                      <img class="img-fluid" src="assets/svg/components/pointer-up.svg" alt=" ">
+                    </figure>
+                    <!-- End SVG Shape -->
+      
+                    <!-- SVG Shape -->
+                    <figure class="position-absolute bottom-0 start-0 mb-n8 ms-n8" style="width: 12rem;">
+                      <img class="img-fluid" src="assets/svg/components/curved-shape.svg" alt=" ">
+                    </figure>
+                    <!-- End SVG Shape -->
+                  </div>
+                </div>
+                <!-- End Col -->
+      
+                <div class="col-md-6">
+                  <div class="mb-5">
+                    <h3 class="">Explore the exhibitors at our Fashion Week, featuring a diverse array of brands and businesses. You will find detailed biographies of each brand, along with lookbooks and links to their digital showrooms. Additionally, the latest collections, runway shows, shoppable links, and editorial content from these exhibitors are readily available for your viewing.</h3>
+                  </div>
+                </div>
+                <!-- End Col -->
+              </div>
+              <!-- End Row -->
+            </div>
+          </div>
+          <!-- End Card List -->
+      
+          <!-- Clients -->
+          <div class="container">
+            <!-- Swiper Slider -->
+            <div class="js-swiper-clients-1 swiper text-center">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                </div>
+                <!-- End Slide -->
+      
+                <div class="swiper-slide">
+                  <img class="avatar avatar-lg avatar-4x3" src="assets/svg/brands/sass-dark.svg" alt="Logo">
+                </div>
+                <!-- End Slide -->
+      
+                <div class="swiper-slide">
+                  <img class="avatar avatar-lg avatar-4x3" src="assets/svg/brands/forbes-dark.svg" alt="Logo">
+                </div>
+                <!-- End Slide -->
+      
+                <div class="swiper-slide">
+                  <img class="avatar avatar-lg avatar-4x3" src="assets/svg/brands/gitlab-dark.svg" alt="Logo">
+                </div>
+                <!-- End Slide -->
+      
+                <div class="swiper-slide">
+                  <img class="avatar avatar-lg avatar-4x3" src="assets/svg/brands/hubspot-dark.svg" alt="Logo">
+                </div>
+                <!-- End Slide -->
+              </div>
+            </div>
+            <!-- End Swiper Slider -->
+          </div>
+          <!-- End Clients -->
+      
+          <!-- Card Grid -->
+           <div class="card mb-2 ">
+            <div class="card-body bg-mint">
+              <div class="container content-space-t-2 content-space-t-lg-3 content-space-b-lg-2">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                  <div class="col mb-5 mb-sm-10">
+                    <!-- Card -->
+                    <a class="card card-ghost card-transition-zoom h-100" href="exhibitors.html">
+                      <div class="card-transition-zoom-item">
+                        <img class="card-img" src="img/12345 (3).jpeg" alt=" " >
+                      </div>
+          
+                      <div class="card-body">
+                        <div class="mb-3">
+                          <img class="avatar avatar-lg avatar-4x3" src="assets/svg/brands/fitbit-dark.svg" alt="Logo">
+                        </div>
+                        <h5>Making tracks with global payments</h5>
+                      </div>
+          
+                      <div class="card-footer mt-n5 mt-sm-0">
+                        <span class="card-link">Read exhibitors story</span>
+                      </div>
+                    </a>
+                    <!-- End Card -->
+                  </div>
+                  <!-- End Col -->
+          
+                  <div class="col mb-5 mb-sm-10">
+                    <!-- Card -->
+                    <a class="card card-ghost card-transition-zoom h-100" href="exhibitors.html">
+                      <div class="card-pinned card-transition-zoom-item">
+                        <img class="card-img" src="img/437a-b5a2-4479c52b986e.png" alt=" ">
+                        <span class="badge bg-dark text-white card-pinned-top-end">New startup</span>
+                      </div>
+          
+                      <div class="card-body">
+                        <div class="mb-3">
+                          <img class="avatar avatar-lg avatar-4x3" src="assets/svg/brands/mailchimp-dark.svg" alt="Logo">
+                        </div>
+                        <h5>The road to global expansion</h5>
+                      </div>
+          
+                      <div class="card-footer mt-n5 mt-sm-0">
+                        <span class="card-link">Read exhibitors story</span>
+                      </div>
+                    </a>
+                    <!-- End Card -->
+                  </div>
+                  <!-- End Col -->
+          
+                  <div class="col mb-5 mb-sm-10">
+                    <!-- Card -->
+                    <a class="card card-ghost card-transition-zoom h-100" href="exhibitors.html">
+                      <div class="card-transition-zoom-item">
+                        <img class="card-img" src="img/12345 (1).jpeg" alt=" ">
+                      </div>
+          
+                      <div class="card-body">
+                        <div class="mb-3">
+                          <img class="avatar avatar-lg avatar-4x3" src="assets/svg/brands/capsule-dark.svg" alt="Logo">
+                        </div>
+                        <h5>4 questions with Wade Stokes</h5>
+                      </div>
+          
+                      <div class="card-footer mt-n5 mt-sm-0">
+                        <span class="card-link">Read exhibitors story</span>
+                      </div>
+                    </a>
+                    <!-- End Card -->
+                  </div>
+                  <!-- End Col -->
+                </div>
+              <!-- End Row -->
+              </div>
+            </div>
+          </div>
+          
+          <!-- End Card Grid -->
+      
+          <!-- Testimonials -->
+          <div class="container mt-3">
+            <div class="w-lg-75 text-center mx-lg-auto">
+              <div class="my-5">
+                <img class="avatar avatar-xl avatar-4x3" src="" alt="Logo">
+              </div>
+      
+              <figure class="blockquote-lg">
+                <blockquote class="blockquote">I just wanted to say that I'm very happy with my purchase of Unify so far. The documentation is outstanding - clear and detailed.</blockquote>
+      
+                <figcaption class="blockquote-footer mb-3 mb-sm-7">
+                  Philip
+                  <span class="blockquote-footer-source">Product Manager | Airbnb</span>
+                </figcaption>
+              </figure>
+      
+              <a class="link link-pointer" href="#">Read exhibitors story</a>
+            </div>
+          </div>
+          <!-- End Testimonials -->
+      
+          <!-- Subscribe -->
+          <div class="overflow-hidden">
+            <div class="container content-space-b-2 content-space-b-lg-3">
+              <div class="position-relative bg-soft-primary rounded-3 p-7">
+                <div class="row justify-content-lg-between align-items-lg-center">
+                  <div class="col-lg-6 mb-3 mb-lg-0">
+                    <h2>Get industry insights that you won't delete, straight in your inbox</h2>
+                  </div>
+                  <!-- End Col -->
+      
+                  <div class="col-lg-5">
+                    <form>
+                      <!-- Input Card -->
+                      <div class="input-card input-card-sm mb-3">
+                        <div class="input-card-form">
+                          <label for="subscribeForm" class="form-label visually-hidden">Enter email</label>
+                          <input type="email" class="form-control form-control-lg" id="subscribeForm" placeholder="Enter email" aria-label="Enter email">
+                        </div>
+                        <button type="button" class="btn btn-primary btn-lg" id="heroNameAddOn">Subscribe</button>
+                      </div>
+                      <!-- End Input Card -->
+                    </form>
+      
+                    <a class="link link-pointer" href="page-login.html">Create a free account</a>
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+      
+                <!-- SVG Shape -->
+                <figure class="position-absolute top-0 end-0 zi-n1 d-none d-md-block mt-10 me-n10" style="width: 4rem;">
+                  <img class="img-fluid" src="assets/svg/components/pointer-up.svg" alt=" ">
+                </figure>
+                <!-- End SVG Shape -->
+      
+                <!-- SVG Shape -->
+                <figure class="position-absolute bottom-0 start-0 zi-n1 ms-n10 mb-n10" style="width: 15rem;">
+                  <img class="img-fluid" src="assets/svg/components/curved-shape.svg" alt=" ">
+                </figure>
+                <!-- End SVG Shape -->
+              </div>
+            </div>
+          </div>
+          <!-- End Subscribe -->
+        </main>
 
           <!-- ========== FOOTER ========== -->
       <footer class="bg-black">
@@ -517,5 +524,49 @@
       </footer>
       <!-- ========== END FOOTER ========== -->
   <!-- ========== END MAIN CONTENT ========== -->
+       <!-- JS Implementing Plugins -->
+       <script src="assets/js/vendor.min.js"></script>
+
+       <!-- JS mainpro -->
+       <script src="assets/js/theme.min.js"></script>
+
+  <script>
+
+    (function () {
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo(".js-go-to");
+
+      // INITIALIZATION OF SWIPER
+      // =======================================================
+      var sliderThumbs = new Swiper(".js-swiper-blog-modern-hero-thumbs", {
+        slidesPerView: 4,
+        breakpoints: {
+          580: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+      });
+
+      // Blog Modern Hero
+      var swiper = new Swiper(".js-swiper-blog-modern-hero", {
+        effect: "fade",
+        autoplay: true,
+        loop: true,
+        pagination: {
+          el: ".js-swiper-blog-modern-hero-pagination",
+          clickable: true,
+        },
+        thumbs: {
+          swiper: sliderThumbs,
+        },
+      });
+    })();
+  </script>
   </body>
 </html>

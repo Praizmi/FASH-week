@@ -26,7 +26,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
  
  .flipping div {
     animation: flipping-18i5bq 1.5s calc(var(--delay) * 1s) infinite backwards;
-    background-color: #ff4747;
+    background-color: #07853a;
  }
  
  .flipping div:nth-child(1) {
@@ -111,4 +111,17 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   
   /* Rest of the preloader CSS */
 
-  
+  .bg-mint{
+   background-color: #262b2513;
+  }
+
+  .card-transition-zoom-item .card-img{
+   height: 508.11px;
+  }
+
+  #headLogo{
+   margin-left: 10px;
+   width: 26px;
+   height: 56px;
+   padding: 5px 0 5px 0;
+  }

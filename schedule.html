@@ -22,90 +22,109 @@
     
     <div id="contents">
         <!-- ========== HEADER ========== -->
-        <header
-          id="header"
-          class="navbar navbar-expand-lg navbar-end navbar-sticky-top navbar-dark"
-        >
-          <div class="container">
-            <nav class="js-mega-menu navbar-nav-wrap bg-light rounded bg-dark">
-              <!-- Default Logo -->
-              <a class="navbar-brand" href="../index.html" aria-label="mainpro">
-                <!-- <img class="navbar-brand-logo" src="../assets/svg/logos/logo-white.svg" alt="Logo"> -->
-              </a>
-              <!-- End Default Logo -->
-  
-              <!-- Collapse -->
-              <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                <div class="navbar-sticky-top-scroller">
-                  <ul class="navbar-nav nav-pills">
-                    <!-- Schedule -->
-                    <li
-                      class="hs-has-mega-menu nav-item"
-                      data-hs-mega-menu-item-options='{
-                    "desktop": {
-                      "maxWidth": "40rem"
-                    }
-                  }'
-                    >
-                      <a
-                        id="landingsMegaMenu"
-                        class="hs-mega-menu-invoker nav-link"
-                        aria-current="page"
-                        href="schedule.html"
-                        role="button"
-                        aria-expanded="false"
-                        >Schedule</a
-                      >
-                    </li>
-                    <!-- End Schedule -->
-                    <!-- Landings -->
-                    <li
-                      class="hs-has-mega-menu nav-item"
-                      data-hs-mega-menu-item-options='{
+      <header
+      id="header"
+      class=" navbar navbar-expand-lg navbar-end navbar-sticky-top navbar-dark"
+    >
+      <div class="container">
+        <nav class="bg-dark js-mega-menu navbar-nav-wrap bg-light rounded">
+          <!-- Default Logo -->
+          <a class="navbar-brand" href="./index.html" aria-label="mainpro">
+            <img class="navbar-brand-logo" src="img/123rem.png" Exhibitorsalt="headLogo" id="headLogo">
+          </a>
+          <!-- End Default Logo -->
+
+          <!-- Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-default">
+              <i class="bi-list"></i>
+            </span>
+            <span class="navbar-toggler-toggled">
+              <i class="bi-x"></i>
+            </span>
+          </button>
+          <!-- End Toggler -->
+
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="navbar-sticky-top-scroller">
+              <ul class="navbar-nav nav-pills">
+                <!-- Schedule -->
+                <li
+                  class="hs-has-mega-menu nav-item"
+                  data-hs-mega-menu-item-options='{
                 "desktop": {
                   "maxWidth": "40rem"
                 }
               }'
-                    >
-                      <a
-                        id="landingsMegaMenu"
-                        class="hs-mega-menu-invoker nav-link"
-                        aria-current="page"
-                        href="#"
-                        role="button"
-                        aria-expanded="false"
-                        >Designers</a
-                      >
-                    </li>
-                    <!-- End Landings -->
-                    <!-- Landings -->
-                    <li
-                      class="hs-has-mega-menu nav-item"
-                      data-hs-mega-menu-item-options='{
-                "desktop": {
-                  "maxWidth": "40rem"
-                }
-              }'
-                    >
-                      <a
-                        id="landingsMegaMenu"
-                        class="hs-mega-menu-invoker nav-link"
-                        aria-current="page"
-                        href="exhibitors.html"
-                        role="button"
-                        aria-expanded="false"
-                        >Exhibitors</a
-                      >
-                    </li>
-                    <!-- End Landings -->
-                  </ul>
-                </div>
-              </div>
-              <!-- End Collapse -->
-            </nav>
+                >
+                  <a
+                    id="landingsMegaMenu"
+                    class="hs-mega-menu-invoker nav-link"
+                    aria-current="page"
+                    href="schedule.html"
+                    role="button"
+                    aria-expanded="false"
+                    >Schedule</a
+                  >
+                </li>
+                <!-- End Schedule -->
+                <!-- Landings -->
+                <li
+                  class="hs-has-mega-menu nav-item"
+                  data-hs-mega-menu-item-options='{
+            "desktop": {
+              "maxWidth": "40rem"
+            }
+          }'
+                >
+                  <a
+                    id="landingsMegaMenu"
+                    class="hs-mega-menu-invoker nav-link"
+                    aria-current="page"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Designers</a
+                  >
+                </li>
+                <!-- End Landings -->
+                <!-- Landings -->
+                <li
+                  class="hs-has-mega-menu nav-item"
+                  data-hs-mega-menu-item-options='{
+            "desktop": {
+              "maxWidth": "40rem"
+            }
+          }'
+                >
+                  <a
+                    id="landingsMegaMenu"
+                    class="hs-mega-menu-invoker nav-link "
+                    aria-current="page"
+                    href="exhibitors.html"
+                    role="button"
+                    aria-expanded="false"
+                    >Exhibitors</a
+                  >
+                </li>
+                <!-- End Landings -->
+              </ul>
+            </div>
           </div>
-        </header>
-        <!-- ========== END HEADER ========== -->
+          <!-- End Collapse -->
+        </nav>
+      </div>
+    </header>
+    <!-- ========== END HEADER ========== -->
          <!-- ========== MAIN CONTENT ========== -->
           <div class="container">
             <div class="card bg-white mt-5 p-5">
@@ -517,5 +536,49 @@
       </footer>
       <!-- ========== END FOOTER ========== -->
   <!-- ========== END MAIN CONTENT ========== -->
+
+  <script src="assets/js/vendor.min.js"></script>
+
+       <!-- JS mainpro -->
+       <script src="assets/js/theme.min.js"></script>
+
+  <script>
+
+    (function () {
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo(".js-go-to");
+
+      // INITIALIZATION OF SWIPER
+      // =======================================================
+      var sliderThumbs = new Swiper(".js-swiper-blog-modern-hero-thumbs", {
+        slidesPerView: 4,
+        breakpoints: {
+          580: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+      });
+
+      // Blog Modern Hero
+      var swiper = new Swiper(".js-swiper-blog-modern-hero", {
+        effect: "fade",
+        autoplay: true,
+        loop: true,
+        pagination: {
+          el: ".js-swiper-blog-modern-hero-pagination",
+          clickable: true,
+        },
+        thumbs: {
+          swiper: sliderThumbs,
+        },
+      });
+    })();
+  </script>
   </body>
 </html>
